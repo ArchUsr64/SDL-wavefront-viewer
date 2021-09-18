@@ -4,18 +4,6 @@
 #include <fstream>
 #include <string>
 
-// float coords[8][3] = {
-//     //array storing all 8 vertex positions of the cube
-//     {-1, -1, -1}, //1
-//     {1, -1, -1},  //2
-//     {-1, 1, -1},  //3
-//     {1, 1, -1},   //4
-//     {-1, -1, 1},  //5
-//     {1, -1, 1},   //6
-//     {-1, 1, 1},   //7
-//     {1, 1, 1},    //8
-// };
-
 // clang-format off
 #define WINDOW_WIDTH 640
 #define WINDOW_HEIGHT 480
@@ -26,11 +14,7 @@
 #define RotationArrayAboutZ(x) {{cos(x), sin(x), 0},{-sin(x), cos(x), 0},{0, 0, 1}}
 // clang-format on
 
-std::string FILE_NAME = "untitled.obj";
-
-// const int totalVertices = sizeof(coords) / 12; //constant integer storing the total number of vertices
-
-// int faces[12] = {124, 134, 624, 684, 843, 873, 731, 751, 512, 526, 756, 687}; //stores vertices that make up each face of the cube
+std::string FILE_NAME = "untitled.obj"; //enter the file name for the wavefront here with the extension
 
 float fov = 120; //field of view of the camera in degree
 
