@@ -1,4 +1,4 @@
-# SDL-wavefront-viewer
+# SDL_Wavefront_Viewer
 A basic program to display obj wireframe on the screen with no hardware acceleration<br>
 **NOTE: Only for models with triangle faces**
 ### Controls are as follows:
