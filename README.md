@@ -1,5 +1,7 @@
 # SDL_Wavefront_Viewer
 A basic program to display obj wireframe on the screen with no hardware acceleration<br>
+![image](https://github.com/ArchUsr64/SDL_Wavefront_Viewer/assets/83179501/b2d7747e-5893-4344-bd69-9efb1e7aeff5)
+
 **NOTE: Only for models with triangle faces**
 ### Controls are as follows:
 Arrow keys or w, a, s, d for moving the model on the screen<br>
